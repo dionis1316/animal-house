@@ -1,8 +1,8 @@
-var express = require("EXPRESS")
-var cors = require("cors")
-var bodyParser = require("body-parser")
+var express = require('express')
+var cors = require('cors')
+var bodyParser = require('body-parser')
 var app = express()
-var mongoose = require ("mongoose")
+var mongoose = require ('mongoose')
 var port = process.env.PORT || 5000
 
 app.use(bodyParser.json())
